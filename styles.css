@@ -4,8 +4,6 @@
 }
 
 #container{
-    /* border:2px solid red; */
-    /* background-color: aqua; */
     display:grid;
     height:400px;
     grid-template-columns:repeat(4,80px);
@@ -15,18 +13,18 @@
     align-content: center;
     grid-gap: 20px;
     width:500px;
-    /* margin:auto; */
-    transform: translateY(40px);
+    transform: translateY(25px);
 }
+
 input{
     height:100px;
     width:408px;
     border-radius: 20px;
     margin-left: 53px;
-    /* margin-top: 30px; */
     box-shadow: 1px 1px 4px black;
     font-size: 70px;
 }
+
 section{
     background-color:cadetblue;
     height:650px;
@@ -36,9 +34,9 @@ section{
     margin: auto;
     margin-top: 20px;
 }
+
 button{
     border-radius: 20px;
-    /* border: 1px solid purple; */
     font-size: 40px;
     box-shadow: 1px 1px 2px black;
     height:80px;
@@ -48,8 +46,9 @@ button{
     font-weight: 600;
 }
 
-#c{
-    position: relative;
-    left:57px;
-    top: 20px;
+#functkey{
+    display:flex;
+    margin-top:20px;
+    gap: 20px;
+    padding-left: 60px;
 }
