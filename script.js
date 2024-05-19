@@ -5,7 +5,6 @@ let point=false;
 
 Array.from(btns).forEach((btn) => {
     btn.addEventListener('click', (e) => {
-        console.log(e.target.innerHTML);
         if (e.target.innerHTML == '=') {
             str = eval(str);
             str=str.toFixed(3);
